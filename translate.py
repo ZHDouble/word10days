@@ -88,7 +88,7 @@ if __name__ == "__main__":
     
     L_list1 = []
     
-    with open("list1.txt", "r") as file_list1:
+    with open("list3.txt", "r") as file_list1:
         
         for line in file_list1:
             line = line.replace("\n", "")
